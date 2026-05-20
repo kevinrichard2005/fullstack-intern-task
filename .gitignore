@@ -1,0 +1,30 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build outputs
+dist/
+client/dist/
+server/dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+server/.env
+
+# SQLite Database files
+*.sqlite3
+*.db
+server/db/dev.sqlite3
+
+# IDE and System files
+.DS_Store
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
