@@ -13,5 +13,18 @@ module.exports = {
     seeds: {
       directory: path.join(__dirname, 'db', 'seeds')
     }
+  },
+  production: {
+    client: 'sqlite3',
+    connection: {
+      filename: path.join(__dirname, 'db', 'prod.sqlite3')
+    },
+    useNullAsDefault: true,
+    migrations: {
+      directory: path.join(__dirname, 'db', 'migrations')
+    },
+    seeds: {
+      directory: path.join(__dirname, 'db', 'seeds')
+    }
   }
 };
