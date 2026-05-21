@@ -17,7 +17,7 @@ module.exports = {
   production: {
     client: 'sqlite3',
     connection: {
-      filename: path.join(__dirname, 'db', 'prod.sqlite3')
+      filename: path.join(__dirname, 'db', 'dev.sqlite3')
     },
     useNullAsDefault: true,
     migrations: {
