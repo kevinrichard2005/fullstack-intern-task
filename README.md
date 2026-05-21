@@ -81,5 +81,5 @@ npm run dev
 - **Protected Routes**: `/favorites` page requires a valid JWT.
 
 ## Contact
-- Name: [Your Name]
-- Email: [your.email@example.com]
+- Name: D Kevin Richard
+- Email: kevinrichard7719053@gmail.com
